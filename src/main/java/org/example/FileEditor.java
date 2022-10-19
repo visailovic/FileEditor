@@ -17,7 +17,7 @@ public class FileEditor extends JDialog {   // File Editor Class
     private JButton buttonGetSelection; //Button Get Selection
     String directory; // The default directory to display in the FileDialog
     String selection; //  String selection
-    public FileEditor() {
+    public FileEditor() {   // File Editor Constructor
         setContentPane(contentPane);
         setModal(true);
     //    getRootPane().setDefaultButton(buttonOpen);
