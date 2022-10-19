@@ -13,7 +13,7 @@ public class FileEditor extends JDialog {
     private JButton buttonOpen;
     private JButton buttonClose;
     private JButton buttonSave;
-    private JTextArea textArea;
+    private JTextArea textArea; //Text Area
     private JButton buttonGetSelection;
     String directory; // The default directory to display in the FileDialog
     String selection;
