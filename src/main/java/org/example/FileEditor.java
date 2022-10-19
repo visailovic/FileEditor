@@ -12,7 +12,7 @@ public class FileEditor extends JDialog {
     private JPanel contentPane; //Content pane
     private JButton buttonOpen; //Button Open
     private JButton buttonClose;   //Button Close
-    private JButton buttonSave;
+    private JButton buttonSave;     //Button Save
     private JTextArea textArea;
     private JButton buttonGetSelection;
     String directory; // The default directory to display in the FileDialog
