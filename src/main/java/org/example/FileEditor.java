@@ -9,7 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FileEditor extends JDialog {
-    private JPanel contentPane;
+    private JPanel contentPane; //Content pane
     private JButton buttonOpen;
     private JButton buttonClose;
     private JButton buttonSave;
