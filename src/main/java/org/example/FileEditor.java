@@ -14,7 +14,7 @@ public class FileEditor extends JDialog {
     private JButton buttonClose;   //Button Close
     private JButton buttonSave;     //Button Save
     private JTextArea textArea;
-    private JButton buttonGetSelection;
+    private JButton buttonGetSelection; //Button Get Selection
     String directory; // The default directory to display in the FileDialog
     String selection;
     public FileEditor() {
