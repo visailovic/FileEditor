@@ -16,7 +16,7 @@ public class FileEditor extends JDialog {
     private JTextArea textArea;
     private JButton buttonGetSelection;
     String directory; // The default directory to display in the FileDialog
-    String selection;
+    String selection;   String selection
     public FileEditor() {
         setContentPane(contentPane);
         setModal(true);
