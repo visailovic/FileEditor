@@ -8,7 +8,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class FileEditor extends JDialog {
+public class FileEditor extends JDialog {   // File Editor Class
     private JPanel contentPane; //Content pane
     private JButton buttonOpen; //Button Open
     private JButton buttonClose;   //Button Close
